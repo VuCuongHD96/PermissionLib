@@ -7,13 +7,15 @@
 
 import UIKit
 
-struct PermissionManager {
+public struct PermissionManager {
     
     // MARK: - Property
     let permissionViewController = PermissionViewController()
     
+    public init() { }
+    
     // MARK: - Data
-    func showListPermission() {
+    public func showListPermission() {
         guard let permissionObjectArray = readPermissionKey() else {
             return
         }

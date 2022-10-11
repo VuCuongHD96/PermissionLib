@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class PermissionViewController: UIViewController {
+final class PermissionViewController: UIViewController, XibSceneBase {
     
     // MARK: - Outlet
     @IBOutlet private weak var tableView: UITableView!
