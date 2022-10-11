@@ -8,11 +8,53 @@
 
 /* Begin PBXBuildFile section */
 		A4BF73CF28F5BA88007DEBFD /* PermissionLib.h in Headers */ = {isa = PBXBuildFile; fileRef = A4BF73CE28F5BA88007DEBFD /* PermissionLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4BF73F028F5BD03007DEBFD /* PermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BF73D728F5BD03007DEBFD /* PermissionViewController.swift */; };
+		A4BF73F128F5BD03007DEBFD /* PermissionHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4BF73D928F5BD03007DEBFD /* PermissionHeaderCell.xib */; };
+		A4BF73F228F5BD03007DEBFD /* PermissionHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BF73DA28F5BD03007DEBFD /* PermissionHeaderCell.swift */; };
+		A4BF73F328F5BD03007DEBFD /* PermissionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4BF73DB28F5BD03007DEBFD /* PermissionCell.xib */; };
+		A4BF73F428F5BD03007DEBFD /* PermissionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BF73DC28F5BD03007DEBFD /* PermissionCell.swift */; };
+		A4BF73F528F5BD03007DEBFD /* PermissionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4BF73DD28F5BD03007DEBFD /* PermissionViewController.xib */; };
+		A4BF73F628F5BD03007DEBFD /* PermissionKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BF73DF28F5BD03007DEBFD /* PermissionKey.swift */; };
+		A4BF73F728F5BD03007DEBFD /* PermissionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BF73E028F5BD03007DEBFD /* PermissionType.swift */; };
+		A4BF73F828F5BD03007DEBFD /* XibSceneBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BF73E228F5BD03007DEBFD /* XibSceneBase.swift */; };
+		A4BF73F928F5BD04007DEBFD /* PermissionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BF73E328F5BD03007DEBFD /* PermissionButton.swift */; };
+		A4BF73FA28F5BD04007DEBFD /* PermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BF73E428F5BD03007DEBFD /* PermissionManager.swift */; };
+		A4BF73FB28F5BD04007DEBFD /* TrackingPermissionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BF73E628F5BD03007DEBFD /* TrackingPermissionObject.swift */; };
+		A4BF73FC28F5BD04007DEBFD /* CalendarPermissionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BF73E728F5BD03007DEBFD /* CalendarPermissionObject.swift */; };
+		A4BF73FD28F5BD04007DEBFD /* ContactPermissionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BF73E828F5BD03007DEBFD /* ContactPermissionObject.swift */; };
+		A4BF73FE28F5BD04007DEBFD /* NotificationPermissionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BF73E928F5BD03007DEBFD /* NotificationPermissionObject.swift */; };
+		A4BF73FF28F5BD04007DEBFD /* BluetoothPermissionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BF73EA28F5BD03007DEBFD /* BluetoothPermissionObject.swift */; };
+		A4BF740028F5BD04007DEBFD /* LocationPermissionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BF73EB28F5BD03007DEBFD /* LocationPermissionObject.swift */; };
+		A4BF740128F5BD04007DEBFD /* SiriPermissionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BF73EC28F5BD03007DEBFD /* SiriPermissionObject.swift */; };
+		A4BF740228F5BD04007DEBFD /* PhotoPermissionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BF73ED28F5BD03007DEBFD /* PhotoPermissionObject.swift */; };
+		A4BF740328F5BD04007DEBFD /* RemindersPermissionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BF73EE28F5BD03007DEBFD /* RemindersPermissionObject.swift */; };
+		A4BF740428F5BD04007DEBFD /* MicrophonePermissionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BF73EF28F5BD03007DEBFD /* MicrophonePermissionObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A4BF73CB28F5BA88007DEBFD /* PermissionLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PermissionLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4BF73CE28F5BA88007DEBFD /* PermissionLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PermissionLib.h; sourceTree = "<group>"; };
+		A4BF73D728F5BD03007DEBFD /* PermissionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionViewController.swift; sourceTree = "<group>"; };
+		A4BF73D928F5BD03007DEBFD /* PermissionHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PermissionHeaderCell.xib; sourceTree = "<group>"; };
+		A4BF73DA28F5BD03007DEBFD /* PermissionHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionHeaderCell.swift; sourceTree = "<group>"; };
+		A4BF73DB28F5BD03007DEBFD /* PermissionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PermissionCell.xib; sourceTree = "<group>"; };
+		A4BF73DC28F5BD03007DEBFD /* PermissionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionCell.swift; sourceTree = "<group>"; };
+		A4BF73DD28F5BD03007DEBFD /* PermissionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PermissionViewController.xib; sourceTree = "<group>"; };
+		A4BF73DF28F5BD03007DEBFD /* PermissionKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionKey.swift; sourceTree = "<group>"; };
+		A4BF73E028F5BD03007DEBFD /* PermissionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionType.swift; sourceTree = "<group>"; };
+		A4BF73E228F5BD03007DEBFD /* XibSceneBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibSceneBase.swift; sourceTree = "<group>"; };
+		A4BF73E328F5BD03007DEBFD /* PermissionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionButton.swift; sourceTree = "<group>"; };
+		A4BF73E428F5BD03007DEBFD /* PermissionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionManager.swift; sourceTree = "<group>"; };
+		A4BF73E628F5BD03007DEBFD /* TrackingPermissionObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingPermissionObject.swift; sourceTree = "<group>"; };
+		A4BF73E728F5BD03007DEBFD /* CalendarPermissionObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarPermissionObject.swift; sourceTree = "<group>"; };
+		A4BF73E828F5BD03007DEBFD /* ContactPermissionObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactPermissionObject.swift; sourceTree = "<group>"; };
+		A4BF73E928F5BD03007DEBFD /* NotificationPermissionObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationPermissionObject.swift; sourceTree = "<group>"; };
+		A4BF73EA28F5BD03007DEBFD /* BluetoothPermissionObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothPermissionObject.swift; sourceTree = "<group>"; };
+		A4BF73EB28F5BD03007DEBFD /* LocationPermissionObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationPermissionObject.swift; sourceTree = "<group>"; };
+		A4BF73EC28F5BD03007DEBFD /* SiriPermissionObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiriPermissionObject.swift; sourceTree = "<group>"; };
+		A4BF73ED28F5BD03007DEBFD /* PhotoPermissionObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPermissionObject.swift; sourceTree = "<group>"; };
+		A4BF73EE28F5BD03007DEBFD /* RemindersPermissionObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemindersPermissionObject.swift; sourceTree = "<group>"; };
+		A4BF73EF28F5BD03007DEBFD /* MicrophonePermissionObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicrophonePermissionObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,7 +71,7 @@
 		A4BF73C128F5BA88007DEBFD = {
 			isa = PBXGroup;
 			children = (
-				A4BF73CD28F5BA88007DEBFD /* PermissionLib */,
+				A4BF73CD28F5BA88007DEBFD /* Sources */,
 				A4BF73CC28F5BA88007DEBFD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -42,12 +84,73 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A4BF73CD28F5BA88007DEBFD /* PermissionLib */ = {
+		A4BF73CD28F5BA88007DEBFD /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				A4BF73D628F5BD03007DEBFD /* Scenes */,
+				A4BF73DE28F5BD03007DEBFD /* Model */,
+				A4BF73E128F5BD03007DEBFD /* CustomView */,
+				A4BF73E428F5BD03007DEBFD /* PermissionManager.swift */,
+				A4BF73E528F5BD03007DEBFD /* PermissionObject */,
 				A4BF73CE28F5BA88007DEBFD /* PermissionLib.h */,
 			);
-			path = PermissionLib;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A4BF73D628F5BD03007DEBFD /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A4BF73D728F5BD03007DEBFD /* PermissionViewController.swift */,
+				A4BF73D828F5BD03007DEBFD /* Cell */,
+				A4BF73DD28F5BD03007DEBFD /* PermissionViewController.xib */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A4BF73D828F5BD03007DEBFD /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A4BF73D928F5BD03007DEBFD /* PermissionHeaderCell.xib */,
+				A4BF73DA28F5BD03007DEBFD /* PermissionHeaderCell.swift */,
+				A4BF73DB28F5BD03007DEBFD /* PermissionCell.xib */,
+				A4BF73DC28F5BD03007DEBFD /* PermissionCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A4BF73DE28F5BD03007DEBFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4BF73DF28F5BD03007DEBFD /* PermissionKey.swift */,
+				A4BF73E028F5BD03007DEBFD /* PermissionType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4BF73E128F5BD03007DEBFD /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				A4BF73E228F5BD03007DEBFD /* XibSceneBase.swift */,
+				A4BF73E328F5BD03007DEBFD /* PermissionButton.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		A4BF73E528F5BD03007DEBFD /* PermissionObject */ = {
+			isa = PBXGroup;
+			children = (
+				A4BF73E628F5BD03007DEBFD /* TrackingPermissionObject.swift */,
+				A4BF73E728F5BD03007DEBFD /* CalendarPermissionObject.swift */,
+				A4BF73E828F5BD03007DEBFD /* ContactPermissionObject.swift */,
+				A4BF73E928F5BD03007DEBFD /* NotificationPermissionObject.swift */,
+				A4BF73EA28F5BD03007DEBFD /* BluetoothPermissionObject.swift */,
+				A4BF73EB28F5BD03007DEBFD /* LocationPermissionObject.swift */,
+				A4BF73EC28F5BD03007DEBFD /* SiriPermissionObject.swift */,
+				A4BF73ED28F5BD03007DEBFD /* PhotoPermissionObject.swift */,
+				A4BF73EE28F5BD03007DEBFD /* RemindersPermissionObject.swift */,
+				A4BF73EF28F5BD03007DEBFD /* MicrophonePermissionObject.swift */,
+			);
+			path = PermissionObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +222,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4BF73F328F5BD03007DEBFD /* PermissionCell.xib in Resources */,
+				A4BF73F128F5BD03007DEBFD /* PermissionHeaderCell.xib in Resources */,
+				A4BF73F528F5BD03007DEBFD /* PermissionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +235,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4BF740228F5BD04007DEBFD /* PhotoPermissionObject.swift in Sources */,
+				A4BF73FE28F5BD04007DEBFD /* NotificationPermissionObject.swift in Sources */,
+				A4BF73F928F5BD04007DEBFD /* PermissionButton.swift in Sources */,
+				A4BF73F628F5BD03007DEBFD /* PermissionKey.swift in Sources */,
+				A4BF73FF28F5BD04007DEBFD /* BluetoothPermissionObject.swift in Sources */,
+				A4BF740328F5BD04007DEBFD /* RemindersPermissionObject.swift in Sources */,
+				A4BF740028F5BD04007DEBFD /* LocationPermissionObject.swift in Sources */,
+				A4BF73F828F5BD03007DEBFD /* XibSceneBase.swift in Sources */,
+				A4BF73F028F5BD03007DEBFD /* PermissionViewController.swift in Sources */,
+				A4BF73F428F5BD03007DEBFD /* PermissionCell.swift in Sources */,
+				A4BF740428F5BD04007DEBFD /* MicrophonePermissionObject.swift in Sources */,
+				A4BF73FB28F5BD04007DEBFD /* TrackingPermissionObject.swift in Sources */,
+				A4BF73FD28F5BD04007DEBFD /* ContactPermissionObject.swift in Sources */,
+				A4BF73F728F5BD03007DEBFD /* PermissionType.swift in Sources */,
+				A4BF73FC28F5BD04007DEBFD /* CalendarPermissionObject.swift in Sources */,
+				A4BF740128F5BD04007DEBFD /* SiriPermissionObject.swift in Sources */,
+				A4BF73FA28F5BD04007DEBFD /* PermissionManager.swift in Sources */,
+				A4BF73F228F5BD03007DEBFD /* PermissionHeaderCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -243,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +391,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +422,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
